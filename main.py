@@ -1,11 +1,12 @@
-import classes.etudiant.Etudiant as Etudiant
-import classes.gestionEtudiant.GestionEtudiant as GestionEtudiant
+from src.classes.etudiant import Etudiant
+from src.classes.gestionEtudiant import GestionEtudiant
+from src.classes.menuGestionEtudiant import MenuGestionEtudiant as MenuApp
 
 class MainApp:
     
     
     def run():
-        print("Bonjour tout le monde")
+        MenuApp.showMenu()
 
 if __name__=="__main__":
     MainApp.run()
