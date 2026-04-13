@@ -1,4 +1,4 @@
-import classes.etudiant.Etudiant as Etudiant
+from .etudiant import Etudiant
 
 class GestionEtudiant:
     
