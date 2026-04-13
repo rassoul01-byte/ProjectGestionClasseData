@@ -1,6 +1,6 @@
 class Etudiant:
     
-    Etudiant.-=(0,20)
+    BARREMNOTE=(0,20)
 
     def __init__(self, nom: str, prenom: str, age: int, *notes):
         self._nom = nom
